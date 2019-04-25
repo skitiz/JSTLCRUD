@@ -10,7 +10,7 @@
 <body>
 <sql:setDataSource var="dSource" driver="com.mysql.jdbc.Driver"
                    url="jdbc:mysql://localhost:3306/preparedstatement"
-                   user="root"  password="G0oner4lfe!"/>
+                   user="root"  password=""/>
 <sql:update dataSource="${dSource}" var="count">
     DELETE FROM product WHERE id='${param.id}'
 </sql:update>
