@@ -16,7 +16,7 @@
 <body>
 <sql:setDataSource var="dSource" driver="com.mysql.cj.jdbc.Driver"
                    url="jdbc:mysql://localhost:3306/preparedstatement"
-                   user="root" password="G0oner4life!"/>
+                   user="root" password=""/>
 
 <sql:query var="result" dataSource="${dSource}">
     SELECT * FROM product WHERE id=?
